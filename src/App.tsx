@@ -1,6 +1,7 @@
-import React from 'react';
+import * as React from 'react';
 import './App.css';
 import Button from "./Common/Button";
+import Toggle from './Common/Toggle';
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       <Button onClick = {() => console.log("DING")} buttonVariant="white">BUTTON 2</Button>
       <Button onClick = {() => console.log("DING")} buttonVariant="ghost">BUTTON 3</Button>
       <Button onClick = {() => console.log("DING")} buttonVariant="link">BUTTON 4</Button>
+
+      <Toggle id = 'hardcoded'/>
 
     </div>
   );

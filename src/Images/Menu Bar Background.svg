@@ -1,0 +1,14 @@
+<svg width="1920" height="24" viewBox="0 0 1920 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g filter="url(#jmbmfhiuta)">
+        <path fill="#fff" fill-opacity=".2" d="M0 0h1920v24H0z"/>
+    </g>
+    <path fill="#8F8F8F" d="M0 0h1920v24H0z" style="mix-blend-mode:color-burn" opacity=".2"/>
+    <defs>
+        <filter id="jmbmfhiuta" x="-65" y="-65" width="2050" height="154" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feGaussianBlur in="BackgroundImage" stdDeviation="32.5"/>
+            <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_9506_7459"/>
+            <feBlend in="SourceGraphic" in2="effect1_backgroundBlur_9506_7459" result="shape"/>
+        </filter>
+    </defs>
+</svg>

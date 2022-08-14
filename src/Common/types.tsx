@@ -19,11 +19,11 @@ export interface InputProps {
     inputType?: string;
 };
 
-export interface SwitchProps {
+export interface ToggleProps {
     id: string;
     toggleLeft?: React.ReactNode;
     toggleRight?: React.ReactNode;
-    value: boolean;
-    onChange: () => void;
+    switchValue?: boolean;
+    onChange?: () => void;
 };
 

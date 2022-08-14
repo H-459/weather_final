@@ -1,3 +1,4 @@
+import * as React from 'react';
 import { ButtonProps } from "../types"
 import * as S from "./Styles"
 
