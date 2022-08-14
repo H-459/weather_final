@@ -15,6 +15,8 @@ function App() {
 
       <Toggle id = 'hardcoded'/>
 
+
+
     </div>
   );
 }

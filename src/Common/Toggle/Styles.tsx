@@ -1,19 +1,10 @@
 import styled from "styled-components";
-import Moon  from "./Icons/moon-dark.svg";
-
-import {ReactComponent as Sun}  from "./Icons/sun-dark.svg";
-
 
 export const Label = styled.label`
   display: flex;
   align-items: center;
   gap: 10px;
   cursor: pointer;`;
-
-
-  export const testDiv = styled.div`
-  background-image: url({Moon});
-  background-size: 28px 28px;`;
   
 
 export const Switch = styled.div`
@@ -49,13 +40,9 @@ export const Switch = styled.div`
     }
   }`
 
-  export const Inner = styled.span`
-  &:before {
-    content: {Moon};
-  }
-  &:after {
-    content: {Sun};
-  }`
+  export const leftIcon = styled.div``
+  export const rightIcon = styled.div``
+
 
 
   

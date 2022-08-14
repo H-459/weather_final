@@ -21,9 +21,21 @@ export interface InputProps {
 
 export interface ToggleProps {
     id: string;
-    toggleLeft?: React.ReactNode;
-    toggleRight?: React.ReactNode;
+    rightSide?: React.ReactNode;
+    leftSide?: React.ReactNode;
     switchValue?: boolean;
     onChange?: () => void;
 };
+
+export type InputTypes = "text" | "password";
+
+export interface InputProps {
+  value?: string;
+  placeholder?: string;
+  title?: string;
+  error?: string;
+  type?: InputTypes;
+  onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
+  onBlur?: (e: React.ChangeEvent<HTMLInputElement>) => void;
+}
 
