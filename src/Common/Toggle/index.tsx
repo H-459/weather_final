@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { ToggleProps } from "../types"
+import { ToggleProps } from "./types"
 import * as S from "./Styles"
 
 const Toggle: React.FC<ToggleProps> =({

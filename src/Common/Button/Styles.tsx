@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import { ButtonProps } from "../types";
+import { ButtonProps } from "./types";
 
 const whiteButton = () => {
     return `

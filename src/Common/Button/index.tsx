@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { ButtonProps } from "../types"
+import { ButtonProps } from "./types"
 import * as S from "./Styles"
 
 const Button : React.FC<ButtonProps> = ({

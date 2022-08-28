@@ -2,6 +2,7 @@ import * as React from 'react';
 import './App.css';
 import Button from "./Common/Button";
 import Toggle from './Common/Toggle';
+import Input from './Common/Input';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Button onClick = {() => console.log("DING")} buttonVariant="link">BUTTON 4</Button>
 
       <Toggle id = 'hardcoded'/>
+      <Input onChange={() => console.log("changed")}></Input>
 
 
 

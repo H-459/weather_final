@@ -1,7 +1,7 @@
-import { forwardRef } from "react";
+import * as React from "react";
 import * as S from "./styles";
-import { InputProps } from "../types";
-const Input = forwardRef<HTMLInputElement, InputProps>(
+import { InputProps } from "./types";
+const Input = React.forwardRef<HTMLInputElement, InputProps>(
   ({ title, type = "text", value, onChange, onBlur, placeholder, error, ...props }) => {
     console.log(props);
     return (
